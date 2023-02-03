@@ -56,12 +56,7 @@ main{
    
 }
 
-tr, th, td{
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
-    margin: 5px;
-}
+
 
 .nons {
     padding: 10px;
