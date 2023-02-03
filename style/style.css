@@ -1,0 +1,206 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+   background:  radial-gradient(circle, rgba(229,174,238,1) 0%, rgba(1,111,240,1) 100%);
+}
+
+h1 {
+    position: absolute;
+    display: inline-block;
+    left: 20%;
+    font-size: 75px;
+    font-family: fantasy;
+
+}
+
+.fig {
+    display: inline-block;
+    border-bottom: 1px solid #aa2289;
+}
+
+.figure2 {
+    width: 100%;
+    height: 30%;
+}
+
+.logo-content {
+    width: 20px;
+    right: 90%;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    width: 20%;
+    top: 75%;
+   
+}
+
+.nav {
+    padding: 5px;
+    height: 25px;
+    
+    background: radial-gradient(circle, rgb(74, 71, 71) 25%, rgba(0, 0, 0, 0.688) 100%);
+}
+
+.nav-a {
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    left: 75%;
+   
+}
+
+.nons {
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background: radial-gradient(circle, rgba(138,121,181,1) 25%, rgba(125,77,77,1) 100%);
+}
+
+
+
+
+.events {
+
+    width: 20%;
+   
+    display: inline-block;
+    border-right: 5px double black;
+    background: #238565;
+    
+}
+.page{
+    width: 75%;
+    padding-left: 20px;
+    height: 300px;
+    display: inline-block;
+    
+}
+
+ul {
+    margin: 15px;
+   
+}
+
+
+.events h2 {
+    position: relative;
+    color: white;
+    background-color: black;
+    width: 118%;
+    right: 17%;
+   ;
+    text-align: center;
+}
+.rights{
+    display: inline-block;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+.contact{
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+ h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.nav-a {
+    animation-duration: 4s;
+    animation-name: rebote;
+}
+
+@keyframes rebote {
+
+    from {
+        scale: 0;
+    }
+
+    to {
+        scale: 1;
+    }
+
+}
+
+.logo {
+    animation-duration: 5s;
+    animation-name: zoom;
+}
+
+@keyframes zoom {
+
+    from {
+        transform: rotate(0deg);
+        width: 0%;
+
+    }
+
+    to {
+        transform: rotate(360deg);
+        width: 20%;
+    }
+
+}
+ul:hover{
+    color: white;
+   background: black;
+}
+.page {
+    animation-duration: 3s;
+    animation-name: zoom2;
+}
+
+@keyframes zoom2 {
+    from {
+        transform: scale(0);
+        width: 0%
+    }
+
+    to {
+        transform: scale(1);
+        width: 75%;
+    }
+}
+
+.nons:hover {
+    animation-duration: 3s;
+    animation-name: tira;
+}
+
+@keyframes tira {
+    from {
+        background: radial-gradient(circle, rgba(138,121,181,1) 25%, rgba(125,77,77,1) 100%);
+        border: 0.5px solid;
+    }
+
+    to {
+       background:   radial-gradient(circle, rgb(25, 22, 196) 25%, rgb(229, 22, 191) 100%);
+       color: chartreuse;
+       border: 4px solid;
+}
+}
