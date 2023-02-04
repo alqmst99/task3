@@ -37,7 +37,7 @@ main{
     border-bottom: 1px solid #aa2289;
 }
 .rulep{
-    display: flexbox;
+    display: flex;
     align-content: space-around;
     
 }
