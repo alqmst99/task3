@@ -18,13 +18,11 @@ main{
 }
 
 .rule2{
-    display: flex;
     
     text-align: center;
 }
 .rulet{
-  
-    text-align: center;
+   text-align: center;
 }
 .rule1{
     text-align: center;
@@ -40,6 +38,11 @@ main{
     display: flex;
     align-content: space-around;
     
+}
+.IFH{
+    display: inline;
+    
+    text-align: center;
 }
 h2, p{
     margin: 5px;
