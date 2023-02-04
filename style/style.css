@@ -118,7 +118,7 @@ h2, p{
 }
 
 .listp p{
-    text-align: ;
+    text-align: start;
 }
 .events h2 {
     position: relative;
